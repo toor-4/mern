@@ -6,7 +6,6 @@ const connectDB = require('./config/db.js');
 const app = express();
 const port = process.env.PORT || 5000;
 
-console.log('test');
 app.get('/', (req, res) => {
   res.json({ message: 'Hello World, from Node.js!' });
 });
